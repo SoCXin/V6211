@@ -1,0 +1,36 @@
+{
+    "type":"SoC",
+    "name":"V6211",
+    "title": "Vango V6211 MCU",
+    "description":"Vango PLC MCU",
+    "Core": {
+        "CoreNum": 2,
+        "Core":"Cortex-M4",
+        "Fmax":26,
+        "DMIPS": 25,
+        "CoreMark": 85
+    },
+    "manufacturer": {
+        "vendor":"Vango",
+        "homepage":"http://www.vangotech.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/V6211.git"
+    },
+    "version":"1.0.0",
+    "series":["V6211","V6201"],
+    "package":["LQFP128","QFN68","QFN52"],
+    "peripheral": ["PLC","ADC","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4","Cortex-M0",
+        "Vango",
+        "PLC","ADC","I2C","RTC","SPI","UART",
+        "5.5V","2.7V"
+    ]
+}
+
